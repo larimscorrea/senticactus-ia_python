@@ -1,0 +1,65 @@
+à-vontade.PoS=N;TG=HUM:N0;POL:N0=1;ANOT=MAN
+
+abalado.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+abestado.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
+Abalado
+Abestalhado
+Abestado
+Acalmado
+Afetado
+Afiado
+Aguçado
+Arauto
+Arretado
+Assanhado
+Babado
+Bão
+Bora
+Cabaço
+Cabisbaixo
+Caceteiro
+Carenado
+Chamé
+Chega pra lá
+Chato
+Coisa boa
+Danado
+Desajeitado
+Desanimado
+Desgostoso
+Desgramado
+Empolgado
+Engomado
+Encrencado
+Enfurnado
+Enxuto
+Fenomenal
+Fora de série
+Fuleiragem
+Fuleirão
+Furado
+Galope
+Irado
+Irritado
+Jaca
+Jogado no mato
+Legal
+Leão
+Malcriado
+Maringuinada
+Marrento
+Matuto
+Mexe com os bigodes
+Na maciota
+Nas quebradas
+Nervoso
+No capricho
+Ói que!
+Oxente!
+Parado
+Perfeitão
+Perrengue
+Pão duro
+Pior que cuspo de cobra
+Prático
+Triste
