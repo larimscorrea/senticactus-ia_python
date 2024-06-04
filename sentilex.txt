@@ -1,65 +1,21 @@
-à-vontade.PoS=N;TG=HUM:N0;POL:N0=1;ANOT=MAN
-
-abalado.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
-abestado.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
-Abalado
-Abestalhado
-Abestado
-Acalmado
-Afetado
-Afiado
-Aguçado
-Arauto
-Arretado
-Assanhado
-Babado
-Bão
-Bora
-Cabaço
-Cabisbaixo
-Caceteiro
-Carenado
-Chamé
-Chega pra lá
-Chato
-Coisa boa
-Danado
-Desajeitado
-Desanimado
-Desgostoso
-Desgramado
-Empolgado
-Engomado
-Encrencado
-Enfurnado
-Enxuto
-Fenomenal
-Fora de série
-Fuleiragem
-Fuleirão
-Furado
-Galope
-Irado
-Irritado
-Jaca
-Jogado no mato
-Legal
-Leão
-Malcriado
-Maringuinada
-Marrento
-Matuto
-Mexe com os bigodes
-Na maciota
-Nas quebradas
-Nervoso
-No capricho
-Ói que!
-Oxente!
-Parado
-Perfeitão
-Perrengue
-Pão duro
-Pior que cuspo de cobra
-Prático
-Triste
+abestado.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+abirobado.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+abrir.PoS=V;TG=HUM:N0;POL:N0=0;ANOT=MAN
+abulefar.PoS=V;TG=HUM:N0;POL:N0=0;ANOT=MAN
+achar-graça.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
+acunhar.PoS=V;TG=HUM:N0;POL:N0=1;ANOT=MAN
+agora-pronto.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+agora-deu.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+ah-uma-jaula.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+ai-dentro.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+ai-dento.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+ai-dentu.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+alencarino.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
+alfinim.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+alpercata.PoS=N;TG=HUM:N0;POL:N0=0;ANOT=MAN
+aluir.PoS=V;TG=HUM:N0;POL:N0=0;ANOT=MAN
+amancebado.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+amancebada.PoS=Adj;TG=HUM:N0;POL:N0=-1;ANOT=MAN
+amansa-corno.PoS=Adj;TG=HUM:N0;POL:N0=0;ANOT=MAN
+amarelo-queimado.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
+amojada.PoS=Adj;TG=HUM:N0;POL:N0=1;ANOT=MAN
