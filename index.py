@@ -1,32 +1,52 @@
-# Importa o módulo re, que é a biblioteca de expressões regulares do Python. 
 import re
+
+def load_words():
+    file_path = 'words.txt'  # Caminho correto do arquivo
+    dic_word_polarity = {}
+    
+    with open(file_path, 'r') as sentiwords:
+        for line in sentiwords:
+            pos_ponto = line.find('.')
+            word = line[:pos_ponto]
+            pol_pos = line.find('POL')
+            polarity = line[pol_pos+7:pol_pos+9].replace(';', '')
+
+            dic_word_polarity[word] = int(polarity)
+
+    return dic_word_polarity
 
 def analyze_sentiment():
     # Entrada do usuário
-    comentario = input()
+    comentario = input("Digite seu comentário: ")
 
     # Divisão do comentário em palavras
     palavras = re.findall(r'\b\w+\b', comentario.lower())
-    
-    # Lista de palavras positivas, negativas e neutras
-    positivas = ["bom", "boa", "ótimo", "excelente", "maravilhoso", "gostei", "incrível"]
-    negativas = ["ruim", "péssimo", "horrível", "terrível", "odeio"]
-    neutras = ["mas", "deixou", "apesar", "embora"]
 
-    # Contagem de palavras positivas, negativas e neutras
-    count_positivo = sum(palavra in positivas for palavra in palavras)
-    count_negativo = sum(palavra in negativas for palavra in palavras)
-    count_neutro = sum(palavra in neutras for palavra in palavras)
-    # TODO: Conte quantas palavras neutras estão presentes no comentário.  
+    sentilex = load_words()
 
-    # Verifica se há mais palavras positivas do que negativas no comentário e se não há palavras neutras. Se essa condição for verdadeira, o comentário é considerado positivo.
+    # Inicialização dos contadores
+    count_positivo = 0
+    count_negativo = 0
+    count_neutro = 0
+
+    # Contagem de polaridades baseadas no dicionário
+    for palavra in palavras:
+        if palavra in sentilex:
+            polarity = sentilex[palavra]
+            if polarity > 0:
+                count_positivo += 1
+            elif polarity < 0:
+                count_negativo += 1
+            else:
+                count_neutro += 1
+
+    # Verificação do sentimento
     if count_positivo > count_negativo and count_neutro == 0:
         return "Positivo"
-    elif count_positivo < count_negativo and count_negativo == 0:
+    elif count_positivo < count_negativo and count_neutro == 0:
         return "Negativo"
-    elif count_positivo > count_negativo and count_negativo != 0:
-        return "Esse sentimento pode ser neutro"
-    # TODO: Complete a codição para determinar o sentimento com base na contagem de palavras
+    else:
+        return "Neutro ou Misturado"
 
 # Saída esperada
 sentimento = analyze_sentiment()
